@@ -1,0 +1,5 @@
+{{define "BodyTemp"}}
+
+    <h1>{{.Msg}}</h1>
+
+{{end}}

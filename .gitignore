@@ -1,0 +1,35 @@
+ws/ws
+http/http
+printer/printer
+*.db
+# Emacs
+*~
+
+# Mac OS X
+.DS_Store
+
+# vim
+*.swp
+
+# log
+*.log
+
+*.tmp
+tmp/
+
+.project
+*.bak
+*.swo
+clouddb
+*.db
+
+*.iml
+.idea
+
+tags
+*.tar
+*.so.*
+usr/
+lib/
+lib64/
+docker/
