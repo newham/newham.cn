@@ -3,7 +3,7 @@ package router
 import (
 	"net/http"
 
-	"newham.cn/controllers"
+	"newham-2017/newham.cn/controllers"
 )
 
 func init() {
