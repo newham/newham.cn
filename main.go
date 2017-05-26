@@ -5,9 +5,9 @@ import (
 
 	"google.golang.org/appengine"
 
-	"newham.cn/api"
+	"api"
 
-	_ "newham.cn/router"
+	_ "router"
 )
 
 func main() {
