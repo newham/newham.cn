@@ -1,8 +1,9 @@
 package router
 
 import (
-	"demo/controllers"
 	"net/http"
+
+	"newham.cn/controllers"
 )
 
 func init() {

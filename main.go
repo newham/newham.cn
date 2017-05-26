@@ -2,8 +2,9 @@ package main
 
 import (
 	"conf/api"
-	_ "demo/router"
 	"net/http"
+
+	_ "newham.cn/router"
 
 	"google.golang.org/appengine"
 )
