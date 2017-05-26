@@ -3,14 +3,16 @@ package main
 import (
 	"net/http"
 
+	"google.golang.org/appengine"
+
 	"newham.cn/api"
 
 	_ "newham.cn/router"
 )
 
 func main() {
-	setPort()
-	// appengine.Main()
+	// setPort()
+	appengine.Main()
 }
 func setPort() {
 	println("start server at" + api.AppConfig.String("httpport"))
